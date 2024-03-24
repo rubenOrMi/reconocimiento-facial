@@ -15,7 +15,7 @@ while True:
         #frame2 = escala(frame2,50)
         frame2 = cv.resize(frame2, (100, 100), interpolation=cv.INTER_AREA)
         #cv.imshow('frame', frame2)
-        cv.imwrite("caras/aldo/aldo" + str(i) + ".png", frame2)
+        cv.imwrite("caras/ruben/ruben" + str(i) + ".png", frame2)
     cv.imshow('faces', frame)
     i = i + 1
     k = cv.waitKey(1)
