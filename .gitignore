@@ -1,0 +1,11 @@
+ Ignorar archivos .pyc generados por Python
+*.pyc
+
+# Ignorar el directorio de entorno virtual
+venv/
+
+# Ignorar archivo .xml
+*.xml
+
+# Ignorar carpeta de las imágenes
+caras/
